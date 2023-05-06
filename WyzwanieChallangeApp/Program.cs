@@ -175,79 +175,7 @@ internal partial class Program
         var isValid = 5 > 6;
         Console.WriteLine(isValid);
 
-        //Zadanie dzień 4
-        var ageKobieta = 29;
-        string nameEwa = "Ewa";
-        string Gender = "Kobieta, lat";
-        var ageEwa = 33;
-        string result5 = nameEwa + Gender + ageEwa;
-        Console.WriteLine(result5);
-        if (Gender == "Kobieta, lat")
-        {
-            if (ageKobieta == 29 && ageKobieta <= 30)
-            {
-                Console.WriteLine("Kobieta, mniej niż 30lat ");
-            }
-
-            {
-                var nameAdult = "Pełnoletni";
-                var nameMinor = "Niepełnoletni";
-                var gender = "Mężczyzna";
-                var ageAdult = 18;
-                var ageMinor = "<18";
-                isActive = true;
-
-                if (Gender == "Mężczyzna" & ageAdult == 18)
-                    if (gender == "Mężczyzna" && nameAdult == "Pełnoletni")
-                    {
-
-                    }
-                {
-                    Console.WriteLine("Mężczyzna Pełnoletni");
-                }
-
-                if (ageMinor == "<18" && gender ==  "Mężczyzna")
-                {
-                    Console.WriteLine("Mężczyzna Niepełnoletni");
-
-                }
-            }
-
-
-
-            bool genderMarcin = Mężczyzna;
-            isActive = true;
-
-    
-
-                if (genderMarcin == Mężczyzna)
-                {
-               
-                }
-
-                {
-                    Console.WriteLine("Marcin Mężczyzna");
-
-                }
-                {
-                if(!isActive) 
-
-                    {
-                        Console.WriteLine("Marcin,Inny Marcin = true}");
-                    }
-
-                    {
-                        Console.WriteLine(value: "Marcin, nie jest Mężczyzna");
-                        if (isActive = true)
-                        {
-
-                        }
-                    }
-                }
-            }
-        }
-    }
-
+https://github.com/grzemik56/WyzwanieChallangeApp
 
 //                                  Zadanie dzień 5
 // Przygotuj program, który policzy ile jakich cyfr jest w podanej liczbie
@@ -275,7 +203,7 @@ internal partial class Program
 
 
 
-int number = 171119;
+        int number = 171119;
 string numberInString = number.ToString();
 char[] letters = numberInString.ToCharArray();
 Console.WriteLine(letters);
