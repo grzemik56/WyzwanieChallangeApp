@@ -218,33 +218,151 @@ internal partial class Program
             bool genderMarcin = Mężczyzna;
             isActive = true;
 
-            if (genderMarcin == Mężczyzna)
-            {
-                Console.WriteLine("");
-            }
+    
 
-            {
-                Console.WriteLine("Marcin Mężczyzna");
-
-            }
-            {
-
-
+                if (genderMarcin == Mężczyzna)
                 {
-                    Console.WriteLine("Marcin");
+               
                 }
 
                 {
-                    Console.WriteLine(value: "Marcin, nie jest Mężczyzna");
-                    if (isActive = true)
-                    {
+                    Console.WriteLine("Marcin Mężczyzna");
 
+                }
+                {
+                if(!isActive) 
+
+                    {
+                        Console.WriteLine("Marcin,Inny Marcin = true}");
+                    }
+
+                    {
+                        Console.WriteLine(value: "Marcin, nie jest Mężczyzna");
+                        if (isActive = true)
+                        {
+
+                        }
                     }
                 }
             }
         }
     }
+
+
+//                                  Zadanie dzień 5
+// Przygotuj program, który policzy ile jakich cyfr jest w podanej liczbie
+//
+// Przykład 
+// Wynik dla liczby 4566
+// 0 => 0
+// 1 => 0
+// 2 => 0
+// 3 => 0
+// 4 => 1
+// 5 => 1
+// 6 => 2 
+// 7 => 0
+// 8 => 0
+// 9 => 0
+
+
+//int number = 4566;
+//string numberInString = number.ToString();
+//char[] letters = numberInString.ToArray();
+
+//int number = 171119;
+
+
+
+
+int number = 171119;
+string numberInString = number.ToString();
+char[] letters = numberInString.ToCharArray();
+Console.WriteLine(letters);
+int digit0 = 0;
+int digit1 = 0;
+int digit2 = 0;
+int digit3 = 0;
+int digit4 = 0;
+int digit5 = 0;
+int digit6 = 0;
+int digit7 = 0;
+int digit8 = 0;
+int digit9 = 0;
+
+foreach (char letter in letters)
+{
+    if (letter == '0')
+    {
+        digit0++;
+    }
+    else if (letter == '1')
+    {
+        digit1++;
+    }
+    else if (letter == '2')
+    {
+        digit2++;
+    }
+    else if (letter == '3')
+    {
+        digit3++;
+    }
+    else if (letter == '4')
+    {
+        digit4++;
+    }
+    else if (letter == '5')
+    {
+        digit5++;
+    }
+    else if (letter == '6')
+    {
+        digit6++;
+    }
+    else if (letter == '7')
+    {
+        digit7++;
+    }
+    else if (letter == '8')
+    {
+        digit8++;
+    }
+    else if (letter == '9')
+    {
+        digit9++;
+
+        Console.WriteLine("jest cyfra 0 w liczbie 0 " + digit0);
+        Console.WriteLine("jest cyfra 0 w liczbie 1 " + digit1);
+        Console.WriteLine("jest cyfra 0 w liczbie 2 " + digit2);
+        Console.WriteLine("jest cyfra 0 w liczbie 3 " + digit3);
+        Console.WriteLine("jest cyfra 0 w liczbie 4 " + digit4);
+        Console.WriteLine("jest cyfra 0 w liczbie 5 " + digit5);
+        Console.WriteLine("jest cyfra 0 w liczbie 6 " + digit6);
+        Console.WriteLine("jest cyfra 0 w liczbie 7 " + digit7);
+        Console.WriteLine("jest cyfra 0 w liczbie 8 " + digit8);
+        Console.WriteLine("jest cyfra 0 w liczbie 9 " + digit9);
+
+
+    }
+
 }
 
+
+int number = 171119;
+string numberInString = number.ToString();
+char[] letters = numberInString.ToCharArray();
+
+Console.WriteLine(letters);
+int digit0 = 0;
+int digit1 = 0;
+int digit2 = 0;
+int digit3 = 0;
+int digit4 = 0;
+int digit5 = 0;
+int digit6 = 0;
+int digit7 = 0;
+int digit8 = 0;
+int digit9 = 0;
 
 
